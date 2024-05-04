@@ -1,7 +1,7 @@
-body { font-family: mono; }
+body { font-family: monospace; }
 
 td.num-cell { text-align: right; }
-.hash { font-family: mono; }
+.hash { font-family: monospace; }
 
 tr.old td { color: #888; }
 tr.old td a { color: #888; }

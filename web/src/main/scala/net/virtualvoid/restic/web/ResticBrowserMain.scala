@@ -19,7 +19,7 @@ object ResticBrowserMain extends App {
   println("...finished.")
 
   val binding =
-    Http().newServerAt("localhost", 8080)
+    Http().newServerAt("0.0.0.0", 8080)
       .bind(new ResticRoutes(reader).main)
   binding.onComplete { res =>
     println(s"Binding now $res")
